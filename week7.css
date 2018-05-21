@@ -1,0 +1,74 @@
+﻿/*Week 7 
+    media & canvas page styling
+    by sirak berhane 
+    May 05 2018
+*/
+
+
+/*body styling*/
+body
+{
+    padding-top:50px;
+    padding-bottom:20px;
+    background-color:#deb887;
+}
+/*jumbotron styling*/
+.jumbotron{
+    background-color:#deb887;/* burlywood*/
+}
+/*pargrpah styling*/
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+}
+/*h2 styling*/
+h2{
+    text-align:center;
+    text-shadow:initial;
+
+}
+/* transbox styling*/
+.transbox{
+   background-color:#ffffff;
+   border:1px solid black;
+   opacity:0.7;
+}
+/*column styling*/
+.col-md-4{
+    border:initial;
+    border-color:#2f3976;
+    font-family:'Times New Roman';
+    height:450px;
+    
+}
+/* main styling*/
+.main {
+    border:solid;
+    border-color: #000000;
+    font-family: 'Times New Roman';
+    background-image:url("../images/wood.jpg");
+    height:910px;
+}
+/*button styling*/
+.button{
+    display:inline-block;
+    width:150px;
+    padding:20px;
+    text-align:center;
+    background-color:#586091;
+    font-weight:bold;
+    color:#ffffff;
+    text-decoration:none;
+    border:1px solid #888;
+    cursor:alias;
+}
+
+/*canvas styling*/
+canvas{
+    border:none;
+    float:left;
+}
+/*footer styling*/
+footer{
+    text-align:center;
+}

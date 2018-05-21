@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Week 7-1
+        Webpage that displays videos and audio
+        for rummage garage sale page
+        with javasscript , html ,css
+        by sirak berhane
+        May 4th 2018
+
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,inital-scale=1" />
+    <meta name="description" content="Html , css , javascript " />
+    <meta name="author" content="Sirak Berhane" />
+    <link rel="icon" href="../images/week2-2favicon.ico" />
+        <!--Title-->
+    <title> Garage sale Galore</title>
+
+    <!-- Core bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- custom css-->
+    <link href="../css/week7.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!--header seciton-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Page links-->
+                <a class="navbar-brand" href="#"> Garage Sale Galore</a>
+                <a href="week1-1.html">Week1-1</a>
+                <a href="week2-1.html">Week2-1</a>
+                <a href="week3-1.html">Week3-1</a>
+                <a href="week4-1.html">Week4-1</a>
+                <a href="week5-1.html">Week5-1</a>
+                <a href="week6-1.html">Week6-1</a>
+                <a href="home.html">Home-page</a>
+                <br />
+                <a href="week7-1.html">Week7-1</a>
+                <a href="week7-2.html">Week7-2</a>
+            </div>
+            <!-- login section-->
+            <div id=" navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign in </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main jumbtron-->
+    <div class="jumbotron">
+        <div class="container transbox">
+            <h1 style="font-family:'Times New Roman'">Welcome To Rummage Store</h1>
+            <p>
+               Welcome to Rummage Sale media Page
+            <p />
+            <p><a class="btn btn-primary btn-lg" href="week2-1.html" role="button">Click here to learn more</a><p />
+
+        </div>
+    </div>
+    <!-- video section-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>About Us</h2>
+                <video id="media" controls width="360" height="240" preload="metadata">
+                    <source src="../media/cord.3gp" type="video/3gpp" />
+                    <source src="../media/cord.mp4" type="video/mp4" />
+                    <source src="../media/cord.webm" type="video/webm" />
+
+                    Video Cannot be Displayed
+                </video>
+                <br />
+                <p>
+                    Welcome to Rummage Sale , We offer the best pens available in the market. From high end top quality pens brands to
+                    regular brands like bic we have it all.So browse our website to find the best pen your heart desires.
+                </p>
+            </div>
+            <!-- embede video section-->
+            <div class="col-md-4">
+                <h2> Take a Tour</h2>
+                <br />
+                <iframe width="360" height="200" src="https://www.youtube.com/embed/kIZm5SZHjr0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                
+                 
+                <p>
+                    Check out some of our last videos at the last Local Rummage Sale .
+                    This video will give you a tour of our local Rummage sale .
+
+                </p>
+            </div>
+            <!-- audio seciton-->
+            <div class="col-md-4">
+                <h2>Featured Music</h2>
+                <br />
+                <audio controls>
+                    <source src="../media/Instrumental.mp3" type="audio/mp3" />
+                    <source src="../media/instrumental.wav" type="audio/vnd.wave" />
+                    <source src="../media/Instrumental.ogg" type="audio/ogg" />
+
+                </audio>
+                <br />
+                <p>
+                    We feature wonderful music at our local Rummage garage sale.
+                    Enjoy one of our favorite track !!
+                </p>
+
+            </div>
+        </div>
+        <hr />
+        <!-- Footer content  -->
+        <footer class="container" id="footer">
+
+            <hr />
+            <p>
+                Rummage Non-Profit Product Display Page
+            <p>
+                <a class="footerlink"
+                   href="mailto:Siak.Berhane@park.edu?Subject=Iam%20Interested">Contact Us</a>
+            </p>
+            <p>
+                &copy; 2018 Rummage Non-Profit Ltd.
+            </p>
+            <br />
+            <br />
+        </footer>
+
+    </div>
+    <!-- custom javascript-->
+    <script src="../js/week7.js"></script>
+</body>
+</html>

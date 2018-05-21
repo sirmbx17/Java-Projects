@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Week5-1 rummage sale website
+        Sirak Berhane
+        April 2018-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,inital-scale=1" />
+    <meta name="description" content="Html , css , javascript " />
+    <meta name="author" content="Sirak Berhane" />
+    <link rel="icon" href="../images/week2-2favicon.ico" />
+    <!--Title-->
+    <title>Rummage Annual Sales Bonanza</title>
+    <!--Core Bootstrap-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Custom css stylesheet-->
+    <link href="../css/home-work.css" rel="stylesheet" />
+
+</head>
+
+<body onload="pageload()">
+    <!--Header Content section-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Rummage Garage Sale</a>
+            </div>
+            <!-- Header page Links-->
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Home-work <b class="caret"></b></a>
+                    <!--drop down menu-->
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="template.html">Template</a>
+                        </li>
+                        <li>
+                            <a href="week1-1.html">Week 1-1</a>
+                        </li>
+                        <li>
+                            <a href="week1-2.html">Week 1-2</a>
+                        </li>
+                        <li>
+                            <a href="week2-1.html">Week 2-1</a>
+                        </li>
+                        <li>
+                            <a href="week2-2.html">Week 2-2</a>
+                        </li>
+                        <li>
+                            <a href="week3-1.html">Week 3-1</a>
+                        </li>
+                        <li>
+                            <a href="week3-2.html">Week 3-2</a>
+                        </li>
+                        <li>
+                            <a href="week4-1.html">Week 4-1</a>
+                        </li>
+                        <li>
+                            <a href="week4-2.html">Week 4-2</a>
+                        </li>
+                        <li>
+                            <a href="week5-1.html">Week 5-1</a>
+                        </li>
+                        <li>
+                            <a href="week5-2.html">Week 5-2</a>
+                        </li>
+                        <li>
+                            <a href="week6-1.html">Week 6-1</a>
+                        </li>
+                        <li>
+                            <a href="week6-2.html">Week 6-2</a>
+                        </li>
+                        <li>
+                            <a href="week7-1.html">Week 7-1</a>
+                        </li>
+                        <li>
+                            <a href="week7-2.html">Week 7-2</a>
+                        </li>
+                        <li>
+                            <a href="week8-1.html">Week 8-1</a>
+                        </li>
+                        <li>
+                            <a href="week8-2.html">Week 8-2</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right" id="loginForm">
+                    <div class="form-group">
+                        <input type="text" id="txtUsername" placeholder="Username" class="form-control" />
+
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="txtPassword" placeholder="Password" class="form-control" />
+                    </div>
+                    <button type="submit" onClick="login()" class="btn btnLogin">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Rummage Home Page</h1>
+            <p>
+                We are a local Non Profit that provide  assistance to people who have some disability.
+
+                Our organization was founded by john Rummage in 1980 as a local shelter for families in poverty.
+
+                Our founder John Rummage was a well respected businessman in the kansas city are and around missouri .
+
+                From that point our non profit has grown in size.Today, we help thousands of families with
+
+                disability around the kansas city area.
+            </p>
+            <p>
+                <a href="home.html" target="_blank" class="btn btn-success btn-lg">Learn More</a>
+            </p>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2 class="pright">Our History</h2>
+            <p class="pright week4-1_intro">
+                We are a local non Profit that provide  assistance to people who have some disability.
+
+                Our organization was founded in 1980 by John Rummage as a local shelter for families in poverty.
+
+                Our founder John Rummage was a well respected businessman in the kansas city are and around missouri .
+
+                From that point our non profit has grown in size. Today , we help thousands of families with
+
+                disability around the kansas city area.
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Pens & Pens  & Pens !!</h2>
+            <p>At Rummage garage sale we offer the best pens available in the market. We offer variety of high quality pens. Our pens quality is guaranteed by our loyal customers. We offer great deals on our top selection of pens. If you are interested on our buying our click on the link below.</p>
+            <button id="button">
+                BUY NOW !!!
+            </button>
+
+        </div>
+
+    </div>
+
+    <hr />
+
+    <!-- Footer content  -->
+    <footer class="container" id="footer">
+
+        <hr />
+        <p>
+            Rummage Non-Profit Product Display Page
+        <p>
+            <a class="footerlink"
+               href="mailto:Siak.Berhane@park.edu?Subject=Iam%20Interested">Contact Us</a>
+        </p>
+        <p>
+            &copy; 2018 Rummage Non-Profit Ltd.
+        </p>
+        <br />
+        <br />
+    </footer>
+
+    <!-- javascript code-->
+    <script src="../js/week5.js"></script>
+
+</body>
+</html>
